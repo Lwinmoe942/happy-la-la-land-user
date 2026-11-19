@@ -1,0 +1,27 @@
+Google Play Data safety form — suggested answers
+
+Account creation: Yes (Gmail)
+
+App collects:
+- Email address (Gmail) — Account management, App functionality
+- Name (parent) — Account management
+- App activity / bookings — App functionality
+- Device or other IDs (auth session on device) — App functionality
+
+Not collected:
+- Precise location
+- Photos/videos
+- Child personal information (names, birthdays, school, photos)
+- Financial / payment info (no in-app payments; pay at playground)
+
+Data sharing: Data is not sold. Processed by our backend (Supabase/Railway) to run the service.
+
+Security: Data encrypted in transit (HTTPS).
+
+Deletion:
+- In-app: Account → Delete account
+- Web URL: host store/legal/account-deletion.html (Google Sites OK)
+
+Notifications: Optional POST_NOTIFICATIONS for rewards/news alerts.
+
+Target audience: Parents/guardians 18+ (not a child-directed app).

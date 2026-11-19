@@ -1,0 +1,43 @@
+name: user_app
+description: "HAPPY LA LA LAND parent app"
+publish_to: 'none'
+version: 1.0.6+7
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^17.5.0
+  provider: ^6.1.5+1
+  qr_flutter: ^4.1.0
+  shared_preferences: ^2.5.6
+  supabase_flutter: ^2.18.3
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  url_launcher: ^6.3.2
+  flutter_local_notifications: ^22.3.3
+  in_app_update: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/play_icon_source.png
+  adaptive_icon_background: "#FFF6EA"
+  adaptive_icon_foreground: assets/play_adaptive_fg.png
+  adaptive_icon_foreground_inset: 16
+  min_sdk_android: 24
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/rewards/thadingyut.jpg
+
