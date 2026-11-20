@@ -98,7 +98,7 @@ class _StampCard extends StatelessWidget {
     final caption = ready
         ? 'Free ရပြီ။ နောက်တစ်ခါလာရင် ကလေးတစ်ယောက်စာ မပေးရပါ။'
         : left == StampStatus.goal
-        ? '၄ ကြိမ်လာရင် ကလေးတစ်ယောက်စာ free'
+        ? '၁၀ ကြိမ်လာရင် ကလေးတစ်ယောက်စာ free'
         : 'နောက် ${mmInt(left)} ကြိမ်လာရင် free';
     return AppCard(
       child: Column(
@@ -116,13 +116,14 @@ class _StampCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 14),
-          Row(
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
             children: [
               for (var index = 0; index < StampStatus.goal; index++)
                 Container(
-                  width: 36,
-                  height: 36,
-                  margin: const EdgeInsets.only(right: 8),
+                  width: 30,
+                  height: 30,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: index < stamp.filled
@@ -136,7 +137,7 @@ class _StampCard extends StatelessWidget {
                     ),
                   ),
                   child: index < stamp.filled
-                      ? const Icon(Icons.star_rounded, color: Colors.white, size: 18)
+                      ? const Icon(Icons.star_rounded, color: Colors.white, size: 16)
                       : null,
                 ),
             ],

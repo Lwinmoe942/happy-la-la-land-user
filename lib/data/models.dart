@@ -348,7 +348,7 @@ class StampStatus {
     required this.freeUsed,
   });
 
-  static const goal = 4;
+  static const goal = 10;
 
   final int filled;
   final bool rewardReady;

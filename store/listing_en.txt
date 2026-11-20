@@ -10,7 +10,7 @@ HAPPY LA LA LAND is the parent app for our Mawlamyine indoor playground.
 • Sign in with Gmail
 • Book a play slot
 • Show your membership QR at the shop
-• Collect stamps — 4 paid visits unlock 1 free child visit
+• Collect stamps — 10 paid visits unlock 1 free child visit
 • See rewards and news from the shop
 
 Prices are paid at the playground. This app does not collect children’s names, photos, birthdays, or school details.

@@ -111,7 +111,7 @@ class AccountPage extends StatelessWidget {
                 const _MenuRow(
                   icon: Icons.sell_outlined,
                   label: 'Version',
-                  trailing: '1.0.6',
+                  trailing: '1.0.7',
                   chevron: false,
                 ),
               ],

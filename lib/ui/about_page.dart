@@ -32,15 +32,15 @@ class AboutPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  tr(language, 'မိဘအက်ပ် · ဗားရှင်း ၁.၀.၆', 'Parent app · version 1.0.6'),
+                  tr(language, 'မိဘအက်ပ် · ဗားရှင်း ၁.၀.၇', 'Parent app · version 1.0.7'),
                   style: const TextStyle(color: AppColors.muted),
                 ),
                 const SizedBox(height: 12),
                 Text(
                   tr(
                     language,
-                    'Gmail နဲ့ အကောင့်ဖွင့်ပြီး QR ပြပါ။ ဆိုင်က ဖတ်မှ တံဆိပ်တက်ပါတယ်။ ၄ ကြိမ်လာရင် နောက်တစ်ကြိမ် ကလေးတစ်ယောက် အခမဲ့ပါ။ ကြိုတင်စာရင်းယူပြီး ဆိုင်ရောက်မှ ပေးချေပါ။ အက်ပ်ထဲတွင် ငွေပေးချေမှု မရှိပါ။',
-                    'Sign in with Gmail and show your QR code. A stamp is added only when the shop scans it. After 4 paid visits, one child is free next time. Book ahead and pay at the playground. There are no in-app payments.',
+                    'Gmail နဲ့ အကောင့်ဖွင့်ပြီး QR ပြပါ။ ဆိုင်က ဖတ်မှ တံဆိပ်တက်ပါတယ်။ ၁၀ ကြိမ်လာရင် နောက်တစ်ကြိမ် ကလေးတစ်ယောက် အခမဲ့ပါ။ ကြိုတင်စာရင်းယူပြီး ဆိုင်ရောက်မှ ပေးချေပါ။ အက်ပ်ထဲတွင် ငွေပေးချေမှု မရှိပါ။',
+                    'Sign in with Gmail and show your QR code. A stamp is added only when the shop scans it. After 10 paid visits, one child is free next time. Book ahead and pay at the playground. There are no in-app payments.',
                   ),
                   style: const TextStyle(height: 1.45),
                 ),
